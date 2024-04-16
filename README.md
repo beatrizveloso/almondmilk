@@ -7,3 +7,4 @@
 ![image](https://github.com/beatrizveloso/almondmilk-code/assets/156534028/1aea8aaf-b912-4ca9-8271-1772046fec52)
 ![image](https://github.com/beatrizveloso/almondmilk-code/assets/156534028/94efa40c-91cd-424e-83b9-4f8374b412d6)
 ![image](https://github.com/beatrizveloso/almondmilk-code/assets/156534028/4507158f-d708-4a03-be8b-de82ce640ed1)
+![image](https://github.com/beatrizveloso/almondmilk-code/assets/156534028/53dafa2a-808b-4c80-a15d-d4c1f5ff76b5)
