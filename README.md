@@ -4,3 +4,6 @@
 ![image](https://github.com/beatrizveloso/almondmilk-code/assets/156534028/842227a5-39da-480e-8dac-5558b0a96e85)
 ![image](https://github.com/beatrizveloso/almondmilk-code/assets/156534028/41fae7f8-2a4b-4ccd-bb79-5a2c4fdbde22)
 ![image](https://github.com/beatrizveloso/almondmilk-code/assets/156534028/39a42982-dcb0-4762-b93d-90ce80ea7235)
+![image](https://github.com/beatrizveloso/almondmilk-code/assets/156534028/1aea8aaf-b912-4ca9-8271-1772046fec52)
+![image](https://github.com/beatrizveloso/almondmilk-code/assets/156534028/94efa40c-91cd-424e-83b9-4f8374b412d6)
+![image](https://github.com/beatrizveloso/almondmilk-code/assets/156534028/4507158f-d708-4a03-be8b-de82ce640ed1)
