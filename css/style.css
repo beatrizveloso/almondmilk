@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Timmana&display=swap');
 
 *{
     padding: 0;
@@ -280,4 +281,219 @@ h2{
 .letter-three button:hover{
   background-color: #af4c51;
   transition: 0.3s;
+}
+
+.faixa-cards{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  height: 1050px;
+}
+
+.conteudo{
+  padding-top: 150px;
+  height: 65vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flip-card {
+  width: 240px;
+  height: 340px;
+  perspective: 1000px;
+}
+
+.flip-horizontal-right:hover .flip-card-inner{
+  transform: rotateY(180deg);
+}
+
+.flip-horizontal-right .flip-card-back{
+  transform: rotateY(180deg);
+}
+
+.flip-horizontal-left:hover .flip-card-inner {
+  transform: rotateY(-180deg);
+}
+
+.flip-horizontal-left .flip-card-back {
+  transform: rotateY(-180deg);
+}
+
+.flip-vertical-up:hover .flip-card-inner {
+  transform: rotateX(180deg);
+}
+
+.flip-vertical-up .flip-card-back {
+  transform: rotateX(180deg);
+}
+
+.flip-vertical-down:hover .flip-card-inner {
+  transform: rotateX(-180deg);
+}
+
+.flip-vertical-down .flip-card-back {
+  transform: rotateX(-180deg);
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.flip-card-front, 
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front p{
+  color: white;
+  font-size: 36px;
+  font-family: "Timmana", sans-serif;
+  font-weight: 400;
+  position: relative;
+  left: 20px;
+  top: -30px;
+}
+
+.flip-card-back p{
+  max-width: 180px;
+  color: white;
+  font-size: 20px;
+  font-family: "Timmana", sans-serif;
+  font-weight: 400;
+  position: relative;
+  left: 30px;
+  top: -90px;
+}
+
+.flip-card-front,
+.flip-card-back{
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  background-color: #D46166;
+  object-fit: cover;
+}
+
+.flip-card-front img,
+.flip-card-back img{
+  width: 100%;
+  height: 50%;
+  position: relative;
+  left: -5px;
+  top: -100px;
+}
+
+.section-phone{
+  width: 100%;
+  height: 530px;
+  padding-top: 20px;
+  padding-left: 50px;
+}
+
+.phone-text-img h1{
+  font-size: 48px;
+  padding-left: 40px;
+  padding-bottom: 50px;
+}
+
+.phone-text-img img{
+  width: 40%;
+  position: absolute;
+  left: 700px;
+  top: 3230px;
+}
+
+.retangle-phone{
+  width: 960px;
+  height: 190px;
+  background-color: #FF9898;
+  border-radius: 20px;
+}
+
+.text-phone1 img,
+.text-phone2 img,
+.text-phone3 img{
+  width: 45px;
+  display: flex;
+  padding-left: 10px;
+}
+
+.text-phone1,
+.text-phone2,
+.text-phone3{
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  color: white;
+  display: flex;
+  padding-top: 19px;
+  padding-left: 40px; 
+  gap: 10px;
+}
+
+.text-phone1 p,
+.text-phone2 p,
+.text-phone3 p{
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  color: white;
+  display: flex;
+  padding-top: 5px;
+  font-weight: 600;
+  gap: 12px;
+}
+
+.grid {
+  width: 100%;
+  height: 1290px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+
+.container article {
+  width: 380px;
+  height: 380px;
+  position: relative;
+}
+
+.container article img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-shadow: 2px 2px 5px rgb(151, 150, 150);
+}
+
+.overlay{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #f7bcbc;
+  top: 0;
+  right: 0;
+  gap: 10px;
+  padding: 10px;
+  opacity: 0;
+  transition: opacity .5s ease;
+}
+
+.overlay:hover{
+  opacity: 0.8;
 }
