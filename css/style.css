@@ -11,7 +11,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  margin: 0 auto;
+  margin: auto;
   padding: 10px;
 }
 
@@ -25,7 +25,7 @@ header {
 }
 
 .logo img {
-  width: 220px;
+  width: 180px;
   padding-left: 16px;
 }
 
@@ -74,6 +74,7 @@ main {
 }
 
 h1 {
+  max-width: 700px;
   font-size: 75px;
   font-weight: 600;
   display: flex;
@@ -81,6 +82,7 @@ h1 {
 }
 
 h2 {
+  max-width: 580px;
   color: #6B6666;
   font-size: 20px;
   font-family: "Quicksand", sans-serif;
@@ -150,7 +152,6 @@ h2 {
 .letter {
   display: flex;
   justify-content: space-around;
-  flex-direction: row;
   align-items: center;
   padding-top: 23px;
   padding-left: 15px;
@@ -263,24 +264,6 @@ h2 {
 
 .letter-three h2 {
   padding-top: 12px;
-}
-
-.letter-three button {
-  margin-top: 30px;
-  color: white;
-  font-size: 22px;
-  font-family: "Quicksand", sans-serif;
-  font-weight: 500;
-  background-color: #D46166;
-  border: none;
-  border-radius: 40px;
-  width: 200px;
-  height: 68px;
-}
-
-.letter-three button:hover {
-  background-color: #af4c51;
-  transition: 0.3s;
 }
 
 .faixa-cards {
@@ -584,4 +567,70 @@ iframe {
   width: 100%;
   height: 40%;
   box-shadow: 0px 0px 0px 5px #dab6b7;
+}
+
+@media screen and (max-width: 500px) {
+
+  ul{
+    display: none;}
+  
+  .logo img{
+    padding-left: 50%;}
+
+  .container {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    gap: 2rem;}
+
+  .home p {
+    color: #D46166;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 800;
+    font-size: 24px;}
+
+  h1 {
+    font-size: 40px;
+    max-width: 380px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+  .img-home img {
+    width: 80%;
+    position: absolute;
+    left: 35px;
+    top: 680px;
+  }
+  
+  .circle {
+    width: 410px;
+    height: 410px;
+    position: absolute;
+    left: 35px;
+    top: 610px;
+  }
+  
+  .home button {
+    display: none;}
+
+  .size-section{
+    padding-top: 1200px;
+  }
+  .section-icons {
+    width: 400px;
+    height: 1130px;
+  }
+
+  .square-icons {
+    flex-direction: column;
+    gap: 25px;
+  }
+  
+  .letter {
+    flex-direction: column;
+    padding-top: 23px;
+    padding-left: 15px;
+  }
+  
 }
