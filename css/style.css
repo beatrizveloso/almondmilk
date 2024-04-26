@@ -571,66 +571,73 @@ iframe {
 
 @media screen and (max-width: 500px) {
 
+  header{
+    height: 50px;}
+
   ul{
     display: none;}
+
+  main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;}
   
   .logo img{
-    padding-left: 50%;}
+    width: 50%;
+    position: relative;
+    top: 5px;
+    left: 160px;}
 
-  .container {
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(8, 1fr);
-    gap: 2rem;}
+  .home h1 {
+    line-height: 60px;}
 
   .home p {
-    color: #D46166;
-    font-family: "Quicksand", sans-serif;
-    font-weight: 800;
-    font-size: 24px;}
+    font-size: 18px;}
 
   h1 {
-    font-size: 40px;
+    font-size: 45px;
+    max-width: 410px;}
+
+  h2 {
+    font-size: 16px;
     max-width: 380px;
   }
 
-  h2 {
-    font-size: 20px;
-  }
   .img-home img {
-    width: 80%;
+    width: 40%;
     position: absolute;
-    left: 35px;
-    top: 680px;
-  }
+    left: 125px;
+    top: 370px;}
   
   .circle {
-    width: 410px;
-    height: 410px;
+    width: 340px;
+    height: 340px;
     position: absolute;
-    left: 35px;
-    top: 610px;
-  }
+    left: 60px;
+    top: 380px;}
   
   .home button {
     display: none;}
 
   .size-section{
-    padding-top: 1200px;
-  }
+    padding-top: 1200px;}
+
   .section-icons {
     width: 400px;
-    height: 1130px;
-  }
+    height: 1130px;}
 
   .square-icons {
     flex-direction: column;
-    gap: 25px;
-  }
+    gap: 25px;}
   
   .letter {
     flex-direction: column;
     padding-top: 23px;
-    padding-left: 15px;
-  }
-  
-}
+    padding-left: 15px;}
+
+    .container {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    gap: 2rem;}
+    }
