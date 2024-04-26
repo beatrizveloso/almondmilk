@@ -9,24 +9,28 @@
   box-sizing: border-box;
 }
 
+html{
+  font-size: 100%;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   margin: auto;
-  padding: 10px;
 }
 
 header {
-  width: 1140px;
-  height: 100px;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding-right: 35px;
 }
 
 .logo img {
-  width: 180px;
-  padding-left: 16px;
+  width: 160px;
+  padding-left: 35px;
+  padding-top: 15px;
 }
 
 li {
@@ -47,14 +51,10 @@ a:hover {
 }
 
 main {
-  display: flex;
-  width: 100%;
   height: 560px;
 }
 
 .home {
-  max-width: 1280px;
-  height: 510px;
   display: flex;
   flex-direction: column;
   padding-left: 26px;
@@ -66,23 +66,20 @@ main {
   font-family: "Quicksand", sans-serif;
   font-weight: 800;
   font-size: 24px;
+  padding-top: 20px;
 }
 
 .home h1 {
   line-height: 90px;
   padding-top: 20px;
-}
-
-h1 {
-  max-width: 700px;
+  width: 600px;
   font-size: 75px;
   font-weight: 600;
-  display: flex;
   line-height: 80px;
 }
 
 h2 {
-  max-width: 580px;
+  width: 580px;
   color: #6B6666;
   font-size: 20px;
   font-family: "Quicksand", sans-serif;
@@ -94,7 +91,7 @@ h2 {
   width: 460px;
   height: 460px;
   position: absolute;
-  left: 685px;
+  left: 705px;
   top: 160px;
 }
 
@@ -104,8 +101,8 @@ h2 {
   background-color: #FF9898;
   border-radius: 50%;
   position: absolute;
-  left: 685px;
-  top: 160px;
+  left: 720px;
+  top: 140px;
 }
 
 .home button {
@@ -572,49 +569,52 @@ iframe {
 @media screen and (max-width: 500px) {
 
   header{
-    height: 50px;}
+    width: 100%;
+    height: 40px;}
 
   ul{
     display: none;}
 
   main{
+    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;}
   
   .logo img{
-    width: 50%;
+    height: 60px;
     position: relative;
     top: 5px;
-    left: 160px;}
+    left: 130px;}
 
   .home h1 {
-    line-height: 60px;}
+    line-height: 70px;
+    font-size: 45px;
+    width: 380px;}
 
   .home p {
     font-size: 18px;}
 
-  h1 {
-    font-size: 45px;
-    max-width: 410px;}
+  .home p img{
+    width: 7%;}
 
   h2 {
-    font-size: 16px;
-    max-width: 380px;
+    font-size: 18px;
+    width: 390px;
   }
 
   .img-home img {
-    width: 40%;
+    width: 38%;
     position: absolute;
-    left: 125px;
-    top: 370px;}
+    left: 130px;
+    top: 350px;}
   
   .circle {
-    width: 340px;
-    height: 340px;
+    width: 310px;
+    height: 310px;
     position: absolute;
-    left: 60px;
+    left: 70px;
     top: 380px;}
   
   .home button {
