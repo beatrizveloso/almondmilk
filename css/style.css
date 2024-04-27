@@ -564,26 +564,21 @@ iframe {
   box-shadow: 0px 0px 0px 5px #dab6b7;
 }
 
-@media screen and (max-width: 500px) {
-  header {
-    width: 100%;
-    height: 40px;
-  }
+@media screen and (max-width: 420px) {
 
   ul {
     display: none;
   }
 
   main {
-    height: 730px;
-    padding-left: 40px;
+    height: 680px;
   }
 
   .logo img {
     height: 60px;
     position: relative;
     top: 8px;
-    left: 140px;
+    left: 110px;
   }
 
   .home h1 {
@@ -593,6 +588,7 @@ iframe {
   }
 
   .home p {
+    padding-top: 0px;
     font-size: 18px;
     width: 380px;
   }
@@ -608,18 +604,18 @@ iframe {
   }
 
   .img-home img {
-    width: 40%;
+    width: 45%;
     position: absolute;
-    left: 130px;
-    top: 355px;
+    left: 110px;
+    top: 350px;
   }
 
   .circle {
     width: 320px;
     height: 320px;
     position: absolute;
-    left: 75px;
-    top: 375px;
+    left: 50px;
+    top: 380px;
   }
 
   .home button {
@@ -647,38 +643,43 @@ iframe {
   }
 
   .section-store {
-    height: 690px;
+    height: 670px;
     padding-top: 35px;
   }
 
   .square-store {
-    width: 370px;
-    height: 260px;
+    width: 330px;
+    height: 220px;
     position: absolute;
-    left: 50px;
-    top: 2020px;
+    left: 30px;
+    top: 2035px;
   }
 
   .img-store img {
-    width: 370px;
-    height: 260px;
+    width: 330px;
+    height: 250px;
     position: absolute;
-    left: 90px;
+    left: 60px;
     top: 1990px;
   }
 
+  .letter-two {
+    padding-left: 25px;
+  }
+
   .letter-two h1 {
-    font-size: 45px;
+    font-size: 40px;
+    width: 370px;
   }
 
   .letter-two h2 {
     padding-top: 12px;
-    width: 390px;
-    padding-bottom: 310px;
+    width: 370px;
+    padding-bottom: 330px;
   }
 
   .letter-two button {
-    margin-left: 85px
+    margin-left: 80px
   }
 
   .section-sabores {
@@ -691,7 +692,7 @@ iframe {
     height: 330px;
     position: absolute;
     left: 60px;
-    top: 2680px;
+    top: 2620px;
   }
   
   .img-circle-cty img {
@@ -716,17 +717,21 @@ iframe {
   }
   
   .letter-three {
+    width: 370px;
+    padding-top: 0;
     position: absolute;
     left: 25px;
     top: 2400px;
   }
   
   .letter-three h1 {
-    font-size: 45px;
+    font-size: 35px;
+    width: 370px;
+    padding-top: 5px;
   }
-  
+
   .letter-three h2 {
-    padding-top: 12px;
+    width: 370px;
   }
 
   .conteudo {
@@ -768,8 +773,8 @@ iframe {
 }
 
 .section-phone {
-  width: 100%;
-  height: 490px;
+  width: 400px;
+  height: 480px;
   margin-top: 500px;
   padding-left: 20px;
 }
@@ -777,18 +782,25 @@ iframe {
 .phone-text-img img {
   width: 40%;
   position: absolute;
-  left: 270px;
-  top: 4730px;
+  left: 240px;
+  top: 4690px;
 }
 
 .phone-text-img h1 {
+  width: 370px;
   font-size: 34px;
   padding-left: 10px;
 }
 
 .retangle-phone {
-  width: 440px;
+  width: 360px;
   height: 210px;
+}
+
+.text-phone1,
+.text-phone2,
+.text-phone3 {
+  padding-left: 10px;
 }
 
 .grid {
@@ -809,8 +821,6 @@ iframe {
 .container article {
   width: 330px;
   height: 330px;
-  position: relative;
-  left: -15px;
 }
 
 .container article img {
