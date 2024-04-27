@@ -564,7 +564,7 @@ iframe {
   box-shadow: 0px 0px 0px 5px #dab6b7;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 460px) {
 
   ul {
     display: none;
@@ -691,7 +691,7 @@ iframe {
     width: 350px;
     height: 330px;
     position: absolute;
-    left: 60px;
+    left: 35px;
     top: 2620px;
   }
   
