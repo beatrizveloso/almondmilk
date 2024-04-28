@@ -733,9 +733,9 @@ iframe {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
     column-gap: 20px;
-    row-gap: 5px;
+    row-gap: 2px;
     padding-left: 20px;
-    height: 900px;
+    height: 1300px;
   }
 
 .flip-card-back p {
@@ -763,7 +763,7 @@ iframe {
 .section-phone {
   width: 400px;
   height: 480px;
-  margin-top: 500px;
+  margin-top: 160px;
   padding-left: 20px;
 }
 
@@ -771,7 +771,7 @@ iframe {
   width: 35%;
   position: absolute;
   left: 275px;
-  top: 4620px;
+  top: 4680px;
 }
 
 .phone-text-img h1 {
