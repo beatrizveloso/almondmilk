@@ -189,24 +189,6 @@ h2 {
   width: 490px;
 }
 
-.letter-two button {
-  margin-top: 30px;
-  color: white;
-  font-size: 22px;
-  font-family: "Quicksand", sans-serif;
-  font-weight: 500;
-  background-color: #D46166;
-  border: none;
-  border-radius: 40px;
-  width: 220px;
-  height: 65px;
-}
-
-.letter-two button:hover {
-  background-color: #af4c51;
-  transition: 0.3s;
-}
-
 .section-sabores {
   width: 100%;
   height: 540px;
@@ -650,7 +632,7 @@ iframe {
   }
 
   .section-store {
-    height: 670px;
+    height: 570px;
     padding-top: 35px;
   }
 
@@ -658,20 +640,20 @@ iframe {
     width: 330px;
     height: 220px;
     position: absolute;
-    left: 30px;
-    top: 2035px;
+    left: 50px;
+    top: 2045px;
   }
 
   .img-store img {
     width: 330px;
     height: 250px;
     position: absolute;
-    left: 60px;
-    top: 1990px;
+    left: 80px;
+    top: 2000px;
   }
 
   .letter-two {
-    padding-left: 25px;
+    padding-left: 5px;
   }
 
   .letter-two h1 {
@@ -685,10 +667,6 @@ iframe {
     padding-bottom: 330px;
   }
 
-  .letter-two button {
-    margin-left: 80px
-  }
-
   .section-sabores {
     width: 100%;
     height: 660px;
@@ -698,8 +676,8 @@ iframe {
     width: 350px;
     height: 330px;
     position: absolute;
-    left: 35px;
-    top: 2620px;
+    left: 60px;
+    top: 2570px;
   }
   
   .img-circle-cty img {
@@ -725,16 +703,16 @@ iframe {
   
   .letter-three {
     width: 370px;
-    padding-top: 0;
+    padding-top: 0px;
     position: absolute;
-    left: 25px;
-    top: 2400px;
+    left: 45px;
+    top: 2300px;
   }
   
   .letter-three h1 {
     font-size: 35px;
     width: 370px;
-    padding-top: 5px;
+    padding-top: 0px;
   }
 
   .letter-three h2 {
@@ -755,7 +733,7 @@ iframe {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
     column-gap: 20px;
-    row-gap: 22px;
+    row-gap: 5px;
     padding-left: 20px;
     height: 900px;
   }
@@ -790,10 +768,10 @@ iframe {
 }
 
 .phone-text-img img {
-  width: 40%;
+  width: 35%;
   position: absolute;
-  left: 240px;
-  top: 4690px;
+  left: 275px;
+  top: 4620px;
 }
 
 .phone-text-img h1 {
