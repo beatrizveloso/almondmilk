@@ -755,6 +755,7 @@ iframe {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
     column-gap: 20px;
+    row-gap: 20px;
     padding-left: 20px;
     height: 900px;
   }
