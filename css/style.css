@@ -593,17 +593,17 @@ iframe {
   }
 
   .img-home img {
-    width: 38%;
+    width: 39%;
     position: absolute;
-    left: 150px;
-    top: 350px;
+    left: 130px;
+    top: 360px;
   }
 
   .circle {
     width: 350px;
     height: 350px;
     position: absolute;
-    left: 80px;
+    left: 50px;
     top: 380px;
   }
 
@@ -630,7 +630,7 @@ iframe {
     width: 330px;
     height: 220px;
     position: absolute;
-    left: 50px;
+    left: 40px;
     top: 2045px;
   }
 
@@ -638,7 +638,7 @@ iframe {
     width: 330px;
     height: 250px;
     position: absolute;
-    left: 80px;
+    left: 70px;
     top: 2000px;
   }
 
@@ -666,7 +666,7 @@ iframe {
     width: 350px;
     height: 330px;
     position: absolute;
-    left: 60px;
+    left: 50px;
     top: 2570px;
   }
   
