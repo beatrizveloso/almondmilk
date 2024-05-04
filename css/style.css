@@ -546,7 +546,7 @@ iframe {
   box-shadow: 0px 0px 0px 5px #dab6b7;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 520px) {
 
   body{
     display: flex;
@@ -567,7 +567,7 @@ iframe {
     height: 60px;
     position: relative;
     top: 8px;
-    left: 110px;
+    left: 160px;
   }
 
   .home h1 {
@@ -593,17 +593,17 @@ iframe {
   }
 
   .img-home img {
-    width: 45%;
+    width: 38%;
     position: absolute;
-    left: 110px;
+    left: 150px;
     top: 350px;
   }
 
   .circle {
-    width: 320px;
-    height: 320px;
+    width: 62%;
+    height: 60%;
     position: absolute;
-    left: 50px;
+    left: 90px;
     top: 380px;
   }
 
@@ -619,16 +619,6 @@ iframe {
     width: 380px;
     height: 920px;
     flex-direction: column;
-    padding-left: 0px
-  }
-
-  .cup-icons img {
-    padding-left: 15px;
-  }
-
-  .plant-icons img,
-  .stb-icons img {
-    padding-left: 50px;
   }
 
   .section-store {
@@ -640,7 +630,7 @@ iframe {
     width: 330px;
     height: 220px;
     position: absolute;
-    left: 50px;
+    left: 80px;
     top: 2045px;
   }
 
@@ -648,7 +638,7 @@ iframe {
     width: 330px;
     height: 250px;
     position: absolute;
-    left: 80px;
+    left: 120px;
     top: 2000px;
   }
 
@@ -676,8 +666,8 @@ iframe {
     width: 350px;
     height: 330px;
     position: absolute;
-    left: 60px;
-    top: 2570px;
+    left: 90px;
+    top: 2560px;
   }
   
   .img-circle-cty img {
@@ -720,8 +710,8 @@ iframe {
   }
 
   .conteudo {
-    padding-top: 50px;
-    height: 60vh;
+    padding-top: 40px;
+    height: 370px;
   }
   
   .flip-card {
@@ -732,7 +722,7 @@ iframe {
   .faixa-cards {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
-    column-gap: 20px;
+    column-gap: 40px;
     row-gap: 2px;
     padding-left: 20px;
     height: 1300px;
