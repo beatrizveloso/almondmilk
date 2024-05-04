@@ -600,10 +600,10 @@ iframe {
   }
 
   .circle {
-    width: 62%;
-    height: 60%;
+    width: 350px;
+    height: 350px;
     position: absolute;
-    left: 90px;
+    left: 80px;
     top: 380px;
   }
 
@@ -630,7 +630,7 @@ iframe {
     width: 330px;
     height: 220px;
     position: absolute;
-    left: 80px;
+    left: 50px;
     top: 2045px;
   }
 
@@ -638,7 +638,7 @@ iframe {
     width: 330px;
     height: 250px;
     position: absolute;
-    left: 120px;
+    left: 80px;
     top: 2000px;
   }
 
@@ -666,8 +666,8 @@ iframe {
     width: 350px;
     height: 330px;
     position: absolute;
-    left: 90px;
-    top: 2560px;
+    left: 60px;
+    top: 2570px;
   }
   
   .img-circle-cty img {
@@ -708,7 +708,6 @@ iframe {
   .letter-three h2 {
     width: 370px;
   }
-
   .conteudo {
     padding-top: 40px;
     height: 370px;
