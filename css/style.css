@@ -546,7 +546,7 @@ iframe {
   box-shadow: 0px 0px 0px 5px #dab6b7;
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 400px) {
 
   body{
     display: flex;
@@ -567,7 +567,11 @@ iframe {
     height: 60px;
     position: relative;
     top: 8px;
-    left: 160px;
+    left: 135px;
+  }
+
+  .home{
+    margin-left: 8%;
   }
 
   .home h1 {
@@ -593,17 +597,18 @@ iframe {
   }
 
   .img-home img {
-    width: 38%;
+    width: 230px;
+    height: 300px;
     position: absolute;
-    left: 150px;
-    top: 350px;
+    left: 90px;
+    top: 440px;
   }
 
   .circle {
     width: 350px;
     height: 350px;
     position: absolute;
-    left: 80px;
+    left: 40px;
     top: 380px;
   }
 
@@ -612,6 +617,7 @@ iframe {
   }
 
   .size-section {
+    margin-left: 40px;
     height: 950px;
   }
 
@@ -643,7 +649,7 @@ iframe {
   }
 
   .letter-two {
-    padding-left: 5px;
+    margin-left: 35px;
   }
 
   .letter-two h1 {
@@ -695,7 +701,7 @@ iframe {
     width: 370px;
     padding-top: 0px;
     position: absolute;
-    left: 45px;
+    left: 30px;
     top: 2300px;
   }
   
