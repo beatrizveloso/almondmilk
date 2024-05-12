@@ -9,10 +9,8 @@
   box-sizing: border-box;
 }
 
-html {
-  width: 100%;
-}
 body {
+  width: 100%;
   font-family: "Poppins", sans-serif;
   margin: auto;
 }
@@ -23,7 +21,6 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-right: 35px;
 }
 
 .logo img {
@@ -50,7 +47,8 @@ a:hover {
 }
 
 main {
-  height: 560px;
+  width: 100%;
+  height: 580px;
 }
 
 .home {
@@ -136,7 +134,7 @@ h2 {
 .section-icons {
   background-color: #DD696E;
   border: 15px solid #FF9898;
-  width: 1130px;
+  width: 1050px;
   height: 340px;
   border-radius: 15px;
   box-shadow: -5px 0 5px #a4a1a1;
@@ -163,7 +161,9 @@ h2 {
   width: 100%;
   height: 450px;
   padding-top: 35px;
-  display: flex;
+   display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .square-store {
@@ -172,6 +172,7 @@ h2 {
   background-color: #99C98A;
   border-radius: 6%;
   margin-top: 30px;
+  margin-left: -160px;
 }
 
 .img-store img{
@@ -179,11 +180,6 @@ h2 {
   top: 1120px;
   margin-top: -40px;
   padding-left: 50px;
-}
-
-.letter-two {
-  margin-left: 45px;
-  margin-top: 20px;
 }
 
 .letter-two h1,
@@ -201,7 +197,8 @@ h2 {
   width: 100%;
   height: 540px;
   display: flex;
-  margin-left: 40px;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .circle-two {
@@ -209,18 +206,11 @@ h2 {
   height: 440px;
   background-color: #99C98A;
   border-radius: 50%;
-  z-index: 1;
-
+  margin-top: -40px;
 }
 
 .img-circle img {
-  z-index: 2;
   padding-left: 20px;
-}
-
-.letter-three {
-  padding-top: 55px;
-  margin-left: 100px;
 }
 
 .faixa-cards {
@@ -526,7 +516,7 @@ iframe {
   box-shadow: 0px 0px 0px 5px #dab6b7;
 }
 
-@media screen and (max-width: 400px) {
+@media (max-width: 500px) {
 
   body{
     display: flex;
@@ -540,18 +530,27 @@ iframe {
   }
 
   main {
-    height: 700px;
+    width: 100%;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
-  .logo img {
-    height: 60px;
-    position: relative;
-    top: 8px;
-    left: 135px;
+  .logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
-  .home{
-    margin-left: 8%;
+  .home {
+    margin-left: 6px;
+  }
+  
+  .align-home{
+    display: flex;
+    flex-direction: column;
   }
 
   .home h1 {
@@ -561,9 +560,7 @@ iframe {
   }
 
   .home p {
-    padding-top: 0px;
     font-size: 18px;
-    width: 380px;
   }
 
   .home p img {
@@ -571,25 +568,22 @@ iframe {
   }
 
   h2 {
-    font-size: 18px;
     width: 390px;
-    padding: 3px;
   }
-
+  
   .img-home img {
     width: 230px;
     height: 300px;
-    position: absolute;
-    left: 90px;
-    top: 440px;
+    z-index: 1;
+    margin-left: 50px;
+    margin-top: -300px;
   }
 
   .circle {
     width: 350px;
     height: 350px;
-    position: absolute;
-    left: 40px;
-    top: 380px;
+    margin-left: 0px;
+    margin-top: 40px;
   }
 
   .home button {
@@ -597,8 +591,11 @@ iframe {
   }
 
   .size-section {
-    margin-left: 40px;
     height: 950px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .section-icons {
@@ -744,9 +741,6 @@ iframe {
 
 .phone-text-img img {
   width: 35%;
-  position: absolute;
-  left: 275px;
-  top: 4680px;
 }
 
 .phone-text-img h1 {
