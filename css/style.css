@@ -9,11 +9,8 @@
   box-sizing: border-box;
 }
 
-html{
-  width: 100%;
-}
-
 body {
+  width: 100%;
   font-family: "Poppins", sans-serif;
   margin: auto;
 }
@@ -50,7 +47,8 @@ a:hover {
 }
 
 main {
-  height: 560px;
+  width: 100%;
+  height: 580px;
 }
 
 .home {
@@ -518,7 +516,7 @@ iframe {
   box-shadow: 0px 0px 0px 5px #dab6b7;
 }
 
-@media screen and (max-width: 400px) {
+@media (max-width: 500px) {
 
   body{
     display: flex;
@@ -532,18 +530,27 @@ iframe {
   }
 
   main {
-    height: 700px;
+    width: 100%;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
-  .logo img {
-    height: 60px;
-    position: relative;
-    top: 8px;
-    left: 135px;
+  .logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
-  .home{
-    margin-left: 8%;
+  .home {
+    margin-left: 6px;
+  }
+  
+  .align-home{
+    display: flex;
+    flex-direction: column;
   }
 
   .home h1 {
@@ -553,9 +560,7 @@ iframe {
   }
 
   .home p {
-    padding-top: 0px;
     font-size: 18px;
-    width: 380px;
   }
 
   .home p img {
@@ -563,25 +568,22 @@ iframe {
   }
 
   h2 {
-    font-size: 18px;
     width: 390px;
-    padding: 3px;
   }
-
+  
   .img-home img {
     width: 230px;
     height: 300px;
-    position: absolute;
-    left: 90px;
-    top: 440px;
+    z-index: 1;
+    margin-left: 50px;
+    margin-top: -300px;
   }
 
   .circle {
     width: 350px;
     height: 350px;
-    position: absolute;
-    left: 40px;
-    top: 380px;
+    margin-left: 0px;
+    margin-top: 40px;
   }
 
   .home button {
@@ -589,8 +591,11 @@ iframe {
   }
 
   .size-section {
-    margin-left: 40px;
     height: 950px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .section-icons {
@@ -736,9 +741,6 @@ iframe {
 
 .phone-text-img img {
   width: 35%;
-  position: absolute;
-  left: 275px;
-  top: 4680px;
 }
 
 .phone-text-img h1 {
