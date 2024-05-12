@@ -161,7 +161,7 @@ h2 {
   width: 100%;
   height: 450px;
   padding-top: 35px;
-   display: flex;
+  display: flex;
   justify-content: space-around;
   align-items: center;
 }
@@ -516,7 +516,7 @@ iframe {
   box-shadow: 0px 0px 0px 5px #dab6b7;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 400px) {
 
   body{
     display: flex;
@@ -531,7 +531,7 @@ iframe {
 
   main {
     width: 100%;
-    height: 750px;
+    height: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -544,8 +544,13 @@ iframe {
     align-items: center;
   }
 
+  .logo img {
+    width: 100px;
+    padding-left: 0px;
+  }
+
   .home {
-    margin-left: 6px;
+    margin-left: 0px;
   }
   
   .align-home{
@@ -554,13 +559,14 @@ iframe {
   }
 
   .home h1 {
-    line-height: 70px;
-    font-size: 45px;
-    width: 380px;
+    line-height: 60px;
+    font-size: 40px;
+    width: 340px;
   }
 
   .home p {
     font-size: 18px;
+    padding-top: 0px;
   }
 
   .home p img {
@@ -568,20 +574,22 @@ iframe {
   }
 
   h2 {
-    width: 390px;
+    width: 300px;
+    font-size: 16px;
+    text-align: justify;
   }
   
   .img-home img {
     width: 230px;
     height: 300px;
     z-index: 1;
-    margin-left: 50px;
+    margin-left: 40px;
     margin-top: -300px;
   }
 
   .circle {
-    width: 350px;
-    height: 350px;
+    width: 320px;
+    height: 320px;
     margin-left: 0px;
     margin-top: 40px;
   }
@@ -599,103 +607,82 @@ iframe {
   }
 
   .section-icons {
-    width: 380px;
+    width: 330px;
     height: 920px;
     flex-direction: column;
   }
 
-  .section-store {
-    height: 570px;
-    padding-top: 35px;
-  }
-
-  .square-store {
-    width: 330px;
-    height: 220px;
-    position: absolute;
-    left: 50px;
-    top: 2045px;
-  }
-
-  .img-store img {
-    width: 330px;
-    height: 250px;
-    position: absolute;
-    left: 80px;
-    top: 2000px;
-  }
-
-  .letter-two {
-    margin-left: 35px;
-  }
-
-  .letter-two h1 {
-    font-size: 40px;
-    width: 370px;
-  }
-
-  .letter-two h2 {
-    padding-top: 12px;
-    width: 370px;
-    padding-bottom: 330px;
-  }
-
-  .section-sabores {
-    width: 100%;
-    height: 660px;
-  }
-  
-  .circle-two {
-    width: 350px;
-    height: 330px;
-    position: absolute;
-    left: 60px;
-    top: 2570px;
-  }
-  
-  .img-circle-cty img {
-    width: 180px;
-    position: absolute;
-    left: 80px;
-    top: 60px;
-  }
-  
-  .img-circle-crm img {
-    width: 160px;
-    position: absolute;
-    left: 25px;
-    top: 40px;
-  }
-  
-  .img-circle-stb img {
-    width: 130px;
-    position: absolute;
-    left: 180px;
-    top: 40px;
-  }
-  
-  .letter-three {
-    width: 370px;
-    padding-top: 0px;
-    position: absolute;
-    left: 30px;
-    top: 2300px;
-  }
-  
-  .letter-three h1 {
-    font-size: 35px;
-    width: 370px;
-    padding-top: 0px;
-  }
-
-  .letter-three h2 {
-    width: 370px;
-  }
   .conteudo {
     padding-top: 40px;
     height: 370px;
   }
   
+
+
+  .section-store {
+    width: 100%;
+    height: 650px;
+    padding-top: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #dab6b7;
+  }
+  
+  .square-store {
+    width: 375px;
+    height: 218px;
+    background-color: #99C98A;
+    border-radius: 6%;
+    margin-top: 30px;
+    margin-left: -160px;
+  }
+  
+  .img-store img{
+    width: 375px;
+    height: 318px;
+    margin-top: -40px;
+    padding-left: 70px;
+  }
+  
+  .letter-two h1,
+  .letter-three h1{
+    font-size: 35px;
+    width: 380px;
+  }
+  
+  .letter-two h2,
+  .letter-three h2{
+    width: 360px;
+  }
+  
+  .section-sabores {
+    width: 100%;
+    height: 540px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .circle-two {
+    width: 360px;
+    height: 340px;
+    background-color: #99C98A;
+    border-radius: 50%;
+    margin-top: -40px;
+  }
+  
+  .img-circle img {
+    width: 360px;
+    height: 340px;
+    padding-left: 20px;
+  }
+  
+
+
+
+
   .flip-card {
     width: 160px;
     height: 230px;
@@ -733,7 +720,7 @@ iframe {
 }
 
 .section-phone {
-  width: 400px;
+  width: 380px;
   height: 480px;
   margin-top: 160px;
   padding-left: 20px;
@@ -741,9 +728,11 @@ iframe {
 
 .phone-text-img img {
   width: 35%;
+  margin-top: -220px;
+  margin-left: 0px;
 }
 
-.phone-text-img h1 {
+.phone-text h1 {
   width: 370px;
   font-size: 34px;
   padding-left: 10px;
