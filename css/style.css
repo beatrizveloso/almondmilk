@@ -722,19 +722,24 @@ iframe {
 
   .section-phone {
     width: 400px;
-    height: 480px;
+    height: 460px;
     margin-top: 160px;
     padding-left: 20px;
   }
 
+
+  .phone-text h1 {
+    font-size: 30px;
+    padding-left: 20px;
+  }
+
   .phone-text-img img {
-    width: 35%;
-    margin-left: 200px;
+    display: none;
   }
 
   .phone-text-img h1 {
     width: 370px;
-    font-size: 34px;
+    font-size: 25px;
     padding-left: 10px;
   }
 
