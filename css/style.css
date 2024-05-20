@@ -532,7 +532,7 @@ iframe {
 
   main {
     width: 100%;
-    height: 750px;
+    height: 780px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -545,8 +545,13 @@ iframe {
     align-items: center;
   }
 
+  .logo img {
+    padding-left: 0px;
+    width: 100px;
+  }
+
   .home {
-    margin-left: 6px;
+    padding-left: 0px;
   }
 
   .align-home {
@@ -557,7 +562,7 @@ iframe {
   .home h1 {
     line-height: 70px;
     font-size: 45px;
-    width: 380px;
+    width: 360px;
   }
 
   .home p {
@@ -569,7 +574,7 @@ iframe {
   }
 
   h2 {
-    width: 390px;
+    width: 360px;
   }
 
   .img-home img {
@@ -632,7 +637,7 @@ iframe {
 
   .letter-two h1 {
     font-size: 38px;
-    width: 380px;
+    width: 360px;
   }
 
   .letter-two h2 {
@@ -694,7 +699,7 @@ iframe {
     grid-template-rows: repeat(4, 1fr);
     column-gap: 40px;
     row-gap: 2px;
-    padding-left: 20px;
+    padding-left: 0px;
     height: 1300px;
   }
 
